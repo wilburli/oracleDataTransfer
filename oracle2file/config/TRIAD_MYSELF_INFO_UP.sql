@@ -1,0 +1,1 @@
+select * from TRIAD_MYSELF_INFO where to_char(update_time,'yyyy-MM-dd')=to_char(sysdate,'yyyy-MM-dd')

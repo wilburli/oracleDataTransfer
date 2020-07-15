@@ -1,0 +1,1 @@
+select * from REG_USER where to_char(update_time,'yyyy-MM-dd')=to_char(sysdate,'yyyy-MM-dd')

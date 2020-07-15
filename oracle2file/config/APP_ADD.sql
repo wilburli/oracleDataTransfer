@@ -1,0 +1,1 @@
+select * from APP where to_char(create_time,'yyyy-MM-dd')=to_char(sysdate,'yyyy-MM-dd')
